@@ -1,0 +1,330 @@
+body{
+    background-image: url("img/body-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* navbar */
+.navbar{
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.logo div{
+    width: 100px;
+}
+.navbar-brand h1{
+    font-size: 1.5rem;
+    color: #222222 !important;
+}
+.navbar-brand span{
+    font-size: 1.5rem;
+    color: #9035ea !important;
+}
+.navbar-desc{
+    font-size: 0.8rem;
+    color: #222222 !important;
+    text-decoration: none;
+}
+.nav-item{
+    /* border-bottom:2px solid transparent; */
+    transition: all 0.4s;
+}
+.nav-item:hover a{
+    color: #9035ea!important;
+}
+.nav-link{
+    color: #222222 !important;
+    font-size: 0.9rem;
+}
+/* carousel */
+.carousel{
+    /* border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%; */
+    overflow: hidden;
+}
+.slidetxt{
+    width: 500px;
+}
+.slidetxt h2{
+    font-size: 2.3rem;
+    color: #fff !important;
+}
+.slidetxt p{
+    font-size: 1rem;
+    color: #fff!important;
+}
+.slidetxt button{
+    transition: all 0.5s;
+    background-color: rgba(255,255,255,0.4);
+    color: #fff !important;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    border: 0px;
+}
+.slidetxt button:hover{
+    background: linear-gradient(45deg,#9035ea,#54c6d2) ;
+    border: 0px;
+}
+/*services */
+
+.serviceitem{
+    cursor: pointer;
+}
+
+.serviceitem div{
+    width: 80px;
+    height: 80px;
+    /* box-shadow: 0 0 5px rgb(243, 243, 243); */
+    transition: all 0.3s;
+    margin-top:20px;
+    background-color:rgba(255,255,255,0.4);
+    
+}
+.serviceitem:hover div{
+    box-shadow: 0 0 10px #e1d8eb;
+}
+.serviceitem div img{
+    opacity: 0.8;
+    width: 40px;
+    transition: all 0.3s;
+}
+.serviceitem:hover div img{
+    opacity: 1;
+    transform: scale(1.1) !important;
+}
+.serviceitem h2{
+    font-size: 0.8rem;
+    color: #4d4f58;
+}
+.serviceitem:hover h2{
+    color: #000000;
+}
+
+/* topservice */
+.bg-topservice{
+    background-color: #fff;
+    /* border-top-left-radius: 5%;
+    border-top-right-radius: 5%; */
+}
+.parttitle h3{
+    font-size: 1.5rem;
+    color:#222 ;
+}
+.parttitle div{
+    width: 150px;
+    padding: 1px;
+    background-color:#9035ea ;
+}
+.topservice{
+    background-color:#fff ;
+    transition:all 0.3s;
+    cursor: pointer;
+    border: 1px solid rgb(243, 242, 242);
+    border-radius: 10px;
+
+}
+.topservice:hover{
+    box-shadow: 0 0 20px rgb(226, 225, 225);
+}
+.topservice div{
+    width: 70px;
+    height: 70px;
+    /* background-color: #000; */
+    border: 1px solid rgb(241, 239, 239);
+    background: linear-gradient(45deg,rgba(143,55,233,0.6),rgba(84,199,211,0.6)) ;
+    border-radius: 10px;
+    transition:all 0.3s;
+}
+.topservice:hover div{
+    background: linear-gradient(30deg,rgba(143,55,233,1),rgba(84,199,211,1)) ;
+}
+.topservice h4{
+    color: #222;
+    font-size: 1rem;
+}
+
+.topservice p{
+    color: #706f6f;
+    font-size: 0.8rem;
+    line-height: 25px;
+}
+/* article */
+.bg-yellow{
+    background-color: rgba(255,255,255,0.8);
+}
+.article {
+    transition: all 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgb(209, 209, 209);
+    /* background-color: rgba(255, 255, 255, 1); */
+}
+.article:hover{
+    box-shadow: 0 0 20px rgb(202, 201, 201);
+    cursor: pointer;
+}
+.article h4{
+    color: #222;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+.article p{
+    color: rgb(77, 74, 74);
+    font-size: 0.8rem;
+    line-height: 25px;
+}
+.article button{
+    /* background-color: rgba(143,55,233,0.3); */
+    border: 0px;
+    background:linear-gradient(30deg,rgba(143,55,233,0.6),rgba(84,199,211,0.6));
+    color: rgb(255, 255, 255) ;
+    font-size: 0.7rem;
+    transition:all 0.3s;
+    border-radius:20px;
+}
+.article:hover button{
+    background:linear-gradient(30deg,rgba(143,55,233,1),rgba(84,199,211,1));
+    color: #fff;
+}
+/* comment */
+.bg-comment{
+    background-image: url("img/commentbg.jpg");
+    background-size: cover;
+}
+.comment h4{
+    font-size: 0.9rem;
+}
+.profile{
+    width: 100px;
+    height: 100px;
+}
+.profile .position-absolute{
+    left:4%;
+    bottom: 4%;
+    width: 30px;
+}
+.content img{
+    width: 40px;
+    height: 40px;
+}
+
+.content img{
+    width: 500px;
+    height: 200px;
+}
+.content p{
+    font-size: 0.8rem;
+    line-height: 25px;
+    color: rgb(78, 77, 77);
+}
+.content > div > img{
+    width: 20px;
+    height: 20px;
+}
+.comment h5{
+    font-size: 0.9rem;
+    color: rgb(82, 79, 79);
+}
+/* form */
+form{
+    direction: rtl;
+}
+form button{
+    border: 1px solid #fff !important;
+    border-radius: 20px !important;
+    transition: all 0.3s;
+}
+form button:hover{
+    background:linear-gradient(rgba(143,55,233,1),rgba(84,199,211,1));
+    border:1px solid transparent !important;
+
+}
+/* Footer */
+.bg-footer{
+    background:linear-gradient(rgba(143,55,233,1),rgba(84,199,211,1));
+}
+.footer h3{
+font-size:1rem;
+border-bottom: 1px solid rgba(255, 255, 255,0.3);
+color:#d5dceb ;
+}
+.footer .nav-item a {
+    color: #d5dceb!important;
+    font-size: 0.8rem;
+}
+.footer .nav-item a:hover{
+    background-color:#3a4562 ;
+}
+.footer li {
+    border: none !important;
+}
+.footer li:hover {
+    border: none !important;
+}
+.footercourse{
+    border-bottom: 1px solid rgba(255, 255, 255,0.3);
+    cursor: pointer;
+}
+.footercourse div{
+    width: 50px;
+    height: 50px;
+}
+.footercourse h5{
+    font-size: 0.6rem;
+    color: #c7cfe2;
+}
+.footercourse h4 {
+    font-size: 0.8rem;
+    color: #c7cfe2;
+}
+.footer p{
+    font-size: 0.8rem;
+    line-height: 25px;
+    color: #c7cfe2;
+}
+.follow{
+    width:30px;
+    height:30px;
+    border: 1px solid rgb(255, 255, 255,1);
+    border-radius: 4px;
+    /* background-color: #ffffff; */
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.follow:hover{
+    background:linear-gradient(rgba(143,55,233,1),rgba(84,199,211,1));
+    border: 0px;
+}
+
+.follow img{
+    width: 15px;
+    transition: all 0.3s;
+}
+.contact > div:first-child > div {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s;
+}
+.contact div:first-child > div:hover {
+    background:linear-gradient(rgba(143,55,233,1),rgba(84,199,211,1));
+    border: 0px;
+}
+.contact img{
+    width: 25px;
+}
+.contact h4{
+    font-size: 1rem;
+}
+.contact p{
+    font-size: 0.8rem;
+}
+.bg-end{
+    border-top: 1px solid rgba(255, 255, 255,0.3);
+    background-color: transparent;
+}
+.bg-end h6{
+    font-size: 0.8rem;
+}
